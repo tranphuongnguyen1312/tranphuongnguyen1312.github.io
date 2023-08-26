@@ -99,7 +99,24 @@ body {
                  0 1px 5px RED, 
                  1px 0 5px CYAN, 
                  0 -1px 5px RED;
+    display: contents;
 }
+
+.aboutme {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: -1px 0 5px CYAN, 
+                 0 1px 5px RED, 
+                 1px 0 5px CYAN, 
+                 0 -1px 5px RED;
+}
+
+
 
 
 .Nguyenmxh:after {
@@ -113,6 +130,7 @@ body {
 .Nguyenmxh div:hover {
     transform: translateY(-3px);
     transition: 0.5s;
+    box-shadow: 0 0 7px 3px #33FFFF;
 }
 
 .Nguyenmxh div {
@@ -122,7 +140,7 @@ body {
   padding: 10px 24px; 
   cursor: pointer;  
   width: 43%;
-  margin: auto 29%;
+  margin: auto;
   transition: 0.5s;
   text-align: center;
   text-shadow: -1px 0 5px CYAN, 
@@ -174,7 +192,6 @@ background-color: #050303;
   box-shadow: -1px 0 10px CYAN, 0 1px 5px RED, 1px 0 10px CYAN, 0 -1px 10px RED;
 }
 
-.thongtinthanhtoanv2__copy,
 .thongtinthanhtoanv2__exit,
 .thongtinthanhtoanv2__icon {
   position: relative;
@@ -182,19 +199,7 @@ background-color: #050303;
   color: rgba(255, 255, 255, 0.9);
 }
 
-.thongtinthanhtoanv2__copy::after {
-  position: absolute;
-  top: 25px;
-  left: 0;
-  width: 0%;
-  height: 3px;
-  background-color: rgba(255, 255, 255, 0.6);
-  transition: all 0.5s;
-}
 
-.thongtinthanhtoanv2__copy:hover::after {
-  width: 100%;
-}
 
 .thongtinthanhtoanv2__exit {
   grid-row: 1/2;
@@ -210,14 +215,9 @@ background-color: #050303;
   grid-row: 3/4;
   font-weight: 400;
   color: #FFF;
-  font-family: 'Concert One', cursive;
   font-size: 10;
 }
 
-.thongtinthanhtoanv2__apply {
-  grid-row: 4/5;
-  align-self: center;
-}
 
 /* CARD BACKGROUNDS */
 
@@ -400,10 +400,71 @@ footer {
   bottom: 30px;
   font-family: Audiowide;
   display: block;
-  left: 20%;
+ left: 29%;
 }
 #Toast.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
+.about-box {
+  display: flex;
+  justify-content: center;
+}
+
+.info-box {
+  background-color: black;
+  width: 25%;
+  height:  120px;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+
+#location {
+  margin-right: 20px;
+}
+
+#sc-info{
+  margin-left: 20px;
+}
+
+.info-box .aboutme {
+  font-size: 15px;
+  text-shadow: none;
+}
+
+#location p {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-shadow: -1px 0 5px CYAN, 
+               0 1px 5px RED, 
+               1px 0 5px CYAN, 
+               0 -1px 5px RED;
+}
+
+#sc-info p {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-shadow: -1px 0 5px CYAN, 
+               0 1px 5px RED, 
+               1px 0 5px CYAN, 
+               0 -1px 5px RED;
+}
+
+.info-box:hover {
+  box-shadow: 0 0 7px 3px #33FFFF;
+  transform: translateY(-3px);
+    transition: 0.5s;
+    box-shadow: 0 0 7px 3px #33FFFF;
+}
+
+
