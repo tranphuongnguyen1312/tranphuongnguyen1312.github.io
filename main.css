@@ -467,6 +467,10 @@ footer {
     box-shadow: 0 0 7px 3px #33FFFF;
 }
 
+.head-bar {
+  display: flex;
+}
+
 .chatgpt {
   height: 30px;
   width: 80px;
@@ -488,6 +492,30 @@ footer {
 }
 
 .chatgpt p {
+  color: white;
+}
+
+.bth {
+  height: 30px;
+  width: 150px;
+  background-color: black;
+  border: solid white 2px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bth:hover {
+  box-shadow: 0 0 7px 3px #33FFFF;
+  transform: translateY(-3px);
+    transition: 0.5s;
+    box-shadow: 0 0 7px 3px #33FFFF;
+}
+
+.bth p {
   color: white;
 }
 

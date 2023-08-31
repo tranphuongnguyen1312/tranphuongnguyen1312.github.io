@@ -34,7 +34,11 @@ function ChatGpt() {
 		window.open('http://everwingchat.byethost24.com/?i=1', '_blank')}, 
 	100);
 }
-
+function Bth() {
+	setTimeout(function() {
+		window.open('https://tranphuongnguyen1312.github.io/bangtuanhoan/', '_blank')}, 
+	100);
+}
 TurnonHomeThanhDieu();
 
     function TurnonHomeThanhDieu() {
