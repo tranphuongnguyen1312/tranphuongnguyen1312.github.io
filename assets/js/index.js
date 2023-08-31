@@ -29,6 +29,11 @@ function Github() {
     window.open('https://github.com/EverWing1312', '_blank')},
   100);
 }
+function ChatGpt() {
+	setTimeout(function() {
+		window.open('http://everwingchat.byethost24.com/?i=1', '_blank')}, 
+	100);
+}
 
 TurnonHomeThanhDieu();
 

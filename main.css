@@ -467,4 +467,28 @@ footer {
     box-shadow: 0 0 7px 3px #33FFFF;
 }
 
+.chatgpt {
+  height: 30px;
+  width: 80px;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: solid 2px white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatgpt:hover {
+  box-shadow: 0 0 7px 3px #33FFFF;
+  transform: translateY(-3px);
+    transition: 0.5s;
+    box-shadow: 0 0 7px 3px #33FFFF;
+}
+
+.chatgpt p {
+  color: white;
+}
+
 
